@@ -10,7 +10,7 @@ import { toast } from "@/hooks/use-toast";
 const BuyBPC = () => {
   const navigate = useNavigate();
   const { userData } = useUserStore();
-  const [amount] = useState("₦7,500"); // Made non-editable by removing setter
+  const [amount] = useState("₦10,000"); // Made non-editable by removing setter
   const [fullName, setFullName] = useState(userData?.fullName || "");
   const [email, setEmail] = useState(userData?.email || "");
   const [isSubmitting, setIsSubmitting] = useState(false);
