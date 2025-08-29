@@ -143,7 +143,7 @@ const BuyBPCPayment = () => {
       </p>
 
       <div className="px-5 mb-8">
-        <Button>
+        <Button
           className="bg-blue-600 hover:bg-blue-700 w-full py-6 text-lg font-semibold"
           onClick={handlePaymentConfirm}
         >
